@@ -1,0 +1,10 @@
+* { font-family: 'Muli', sans-serif; }
+
+.black { color: #222; }
+.black:hover {
+  color: gray;
+  transition: .4s;
+}
+
+.centro { text-align: center;}
+.link { color: blue;}
