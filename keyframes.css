@@ -21,8 +21,41 @@ Chrome e Safari, Mozilla Firefox, Opera
 
 /* Definiição da animação fadeIn */
 .fadeIn {
--webkit-animation: fadeIn 3s ease-in-out;
--moz-animation: fadeIn 3s ease-in-out;
--o-animation: fadeIn 3s ease-in-out;
-animation: fadeIn 3s ease-in-out;
+-webkit-animation: fadeIn 2s ease-in-out;
+-moz-animation: fadeIn 2s ease-in-out;
+-o-animation: fadeIn 2s ease-in-out;
+animation: fadeIn 2s ease-in-out;
+}
+
+/* Movimento do titulo */
+.move {
+  animation-duration: 1s;
+  animation-name: slideIn;
+}
+@keyframes slideIn {
+  from {
+    margin-left: 100%;
+    width: 150%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+/* Movimento do subtitulo */
+.move2 {
+  animation-duration: 1.5s;
+  animation-name: slide2;
+}
+
+@keyframes slide2 {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
