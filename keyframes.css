@@ -43,6 +43,22 @@ animation: fadeIn 2s ease-in-out;
   }
 }
 
+/* Movendo da esquerda para a direita */
+.move-left {
+  animation-duration: 1s;
+  animation-name: slideIn;
+}
+@keyframes slideIn {
+  from {
+    margin-left: -100%;
+    width: 150%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
 /* Movimento do subtitulo */
 .move2 {
   animation-duration: 1.5s;
@@ -52,6 +68,22 @@ animation: fadeIn 2s ease-in-out;
 @keyframes slide2 {
   from {
     margin-left: 100%;
+    width: 150%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.move-bottom {
+  animation-duration: 1.5s;
+  animation-name: slide2;
+}
+
+@keyframes slide2 {
+  from {
+    margin-bottom: 100%;
     width: 150%;
   }
   to {
