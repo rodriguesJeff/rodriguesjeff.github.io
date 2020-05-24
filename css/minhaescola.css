@@ -83,6 +83,14 @@
     flex-direction: row;
 }
 
+.titleinfor {
+    display: block;
+    color: #345D7E;
+    font-size: 30;
+    text-align: center;
+    margin-bottom: 40px;;
+}
+
 .contato {
     flex-direction: column;
     flex: 3;
