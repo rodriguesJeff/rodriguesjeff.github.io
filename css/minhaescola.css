@@ -1,0 +1,138 @@
+*{
+    font-family: 'Roboto';
+}
+
+/* navbar */
+.navbar {
+    max-width: 100%;
+    height: 150px;
+    margin: 0 auto;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+
+.item {
+    flex: 1;
+    margin: 5px;
+}
+
+.button {
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    background-color: #345D7E;
+}
+.button a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: lighter;
+}
+.button a:hover {
+    color: rgb(197, 229, 255);
+    text-decoration: none;
+}
+.button-group {
+    justify-content: center;
+    align-items: center;
+    flex: 3;
+    display: flex;
+}
+
+.item1 {
+    flex: 3;
+    justify-content: flex-start;
+}
+
+/* SECTION */
+.section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    margin-bottom: 140px;;
+}
+
+.text {
+    margin-left: 95px;
+    margin-top: 50px;;
+    color: #345D7E;
+    flex: 3;
+}
+.title {
+    font-style: normal;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 46px;
+}
+
+.legend {
+    font-size: 30px;
+    margin-bottom: 100px;;
+}
+
+.imagem {
+    margin-right: 90px;
+}
+
+/* INFOR */
+.infor {
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.contato {
+    flex-direction: column;
+    flex: 3;
+    margin-top: 100px;
+}
+
+.botaocontato {
+    display: block;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 30px;
+    width: 480px;
+    background-color: #345D7E;
+    height: 70px;
+}
+
+.botaocontato a {
+    font-size: 20px;
+    color: #fff;
+}
+.botaocontato a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.social {
+    margin-right: 50px;
+}
+
+/* FOOTEr */
+.footer {
+    background-color: #345D7E;
+    margin-top: 50px;
+    padding: 50px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    color: #ffffff;
+}
+.footertext {
+    font-size: 25px;
+}
+.copy {
+    text-align: center;
+    padding-top: 30px;
+}
+.copy a {
+    color: #fff;
+}
+.copy a:hover {
+    color: #fff;
+    text-decoration: none;
+}

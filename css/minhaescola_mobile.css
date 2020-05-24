@@ -1,0 +1,48 @@
+@media screen and (max-width: 800px){
+    /* navbar */
+    .navbar {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        display: flex;
+        flex: 1;
+        margin-bottom: 30px;;
+    }
+    .item {
+        flex: 1;        
+    }
+    .buttom {
+        width: 100%;;
+        height: 50px;
+    }
+
+    /* section */
+    .section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 75px;
+        margin-bottom: 70px;;
+    }
+    .text {
+        flex: 1;
+        display: block;
+    }
+    .imagem {
+        align-items: center;
+        justify-content: center;
+        display: block;
+    }
+
+    /* infor */
+    .infor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .social {
+        margin-top: 50px;
+    }
+    
+}

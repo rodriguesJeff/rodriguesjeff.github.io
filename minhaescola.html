@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <meta name="author" content="Jefferson Rodrigues">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Minha Escola</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="css/minhaescola.css">
+        <link rel="stylesheet" href="css/minhaescola_mobile.css">
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    </head>
+    <body>
+        <div class="navbar flex-start">
+            <div class="item item1" data-aos="flip-left">
+                <a href="minhaescola.html">
+                    <img class="logo" src="minhaescola.png" alt="Logo do Minha Escola" width="150" height="150">
+                </a>
+            </div>
+            <div class="button-group">
+                <button class="item button">
+                    <a href="#slideWithControlls">
+                        HOME
+                    </a>
+                </button>
+                <button class="item button">
+                    <a href="#function">
+                        FUNÇÕES
+                    </a>
+                </button>
+                <button class="item button">
+                    <a href="#contact">
+                        CONTATO
+                    </a>
+                </button>
+            </div>
+        </div>
+
+
+
+
+        <div id="slideWithControlls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="cell1.png" alt="">
+                </div>    
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="cell2.png" alt="">
+                </div>  
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="cell3.png" alt="">
+                </div>
+            </div>
+
+            <a href="#slideWithControlls" role="button" data-slide="prev" class="carousel-control-prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a href="#slideWithControlls" role="button" data-slide="next" class="carousel-control-next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próxima</span>
+            </a>
+        </div>
+
+
+        <section class="section" id="function">
+            <div class="text"
+                data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+            >
+                <div>
+                    <h2 class="title">Funções...</h2>
+                </div>
+                <div class="legend">
+                    <h2>Estamos dividos entre várias funções:</h2>
+                    <ol>
+                        <li>Boletim</li>
+                        <li>Notificações</li>
+                        <li>Informações</li>
+                        <li>Diários</li>
+                        <li>Atividades</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="imagem"
+                data-aos="zoom-in-down"
+            >
+                <img src="cell4.png" alt="" width="430px" height="570px">
+            </div>
+        </section>
+
+        <div class="infor" id="contact">
+            <div class="contato">
+                <button class="botaocontato">
+                    <a href="https://wa.me/5587991810408?text=Olá tenho interesse em mais informações a respeito do Minha Escola!" class="social ml-lg-4 ml-sm-4 ml-md-5" target="_blank">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </a>
+                </button>
+                <button class="botaocontato">
+                    <a href="https://www.linkedin.com/in/jefferson-rodrigues-683b42156/" class="social ml-lg-4 ml-sm-4 ml-md-5" target="_blank">
+                        <i class="fab fa-linkedin-in"></i> LinkedIn
+                    </a>
+                </button>
+                <button class="botaocontato">
+                    <a href="mailto:jdp.jeffersondavid@gmail.com" class="social ml-lg-4 ml-sm-4 ml-md-5">
+                        <i class="fas fa-envelope-square"></i> Email
+                    </a>
+                </button>
+            </div>
+            <div class="social">
+
+                
+                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3D115126523517587%26id%3D114956006867972%26substory_index%3D0&show_text=true&width=552&height=706&appId" width="442" height="605" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                
+
+            </div>
+
+        </div>
+        <footer class="footer">
+            <h2 class="footertext">
+                Entre em contato conosco por uma das formas acima.
+            </h2>
+            <h2 class="footertext">
+                Promoção válida durante toda a quarentena.
+            </h2>
+            <p class="copy">
+                Minha Escola © 2020 <br>
+                Feito com <i class="fa fa-heart"></i> por <a href="http://jeffdeveloper.tech">Jefferson Rodrigues</a>
+            </p>
+        </footer>
+
+
+
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+       
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+
+    </body>
+</html>
